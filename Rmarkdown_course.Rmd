@@ -130,14 +130,14 @@ Headers can help keep your document organized and create and easy way to jump be
 </font>
 
 ```{r, echo=FALSE,out.width="40%", out.height="15%",fig.cap="caption",fig.show='hold',fig.align='center', fig.cap = "   "}
-knitr::include_graphics(c("Organization_code.PNG","Organization_output.PNG"))
+knitr::include_graphics(c("./images/Organization_code.PNG","./images/Organization_output.PNG"))
 ``` 
 
 ## The White Space | Text Formating 
 
 ### Markdown
 ```{r, echo=FALSE,out.width="40%", out.height="20%",fig.cap="caption",fig.show='hold',fig.align='center', fig.cap = "   "}
-knitr::include_graphics(c("text_format_code.PNG","text_format_output.PNG"))
+knitr::include_graphics(c("./images/text_format_code.PNG","./images/text_format_output.PNG"))
 ``` 
 
 - HTML and Latex also supported for text formatting.
@@ -169,7 +169,7 @@ Display equations can also be added by using two `$$` on either side of the equa
 
 Code:
 
-![](table_code.PNG)
+![](./images/table_code.PNG)
 
 Output:
 
@@ -189,7 +189,7 @@ To access the visual editor select the compass button in the top right corner of
 
 <center>
 
-![](source editor.PNG){width=150px}
+![](./images/source editor.PNG){width=150px}
 
 </center>
 \
@@ -198,7 +198,7 @@ This will render your document and provide a word-like toolbar below the standar
 
 <center>
 
-![](source editor bar.PNG){width=600px}
+![](./images/source editor bar.PNG){width=600px}
 
 </center>
 \
@@ -243,7 +243,7 @@ Updating lines 5-7 of the YAML header as shown below allows for your code to be 
 
 </font>
 
-![](Code_Folding.PNG)
+![](./images/Code_Folding.PNG)
 
 <font size="4">
 
@@ -251,7 +251,7 @@ A code button will also be added at the top right of the knitted document that w
 
 </font>
 
-![](all_code.PNG)
+![](./images/all_code.PNG)
 
 ## Klippy
 
@@ -266,11 +266,11 @@ remotes::install_github(("rlesur/klippy"))
 
 Next, just add the following code chunk anywhere in your document.
 
-![](klippy.PNG){width=450px}
+![](./images/klippy.PNG){width=450px}
 \
 You will then see a blue clipboard button in the top left of each code chunk in your knitted document. (Note: klippy only works with Html output)
 
-![](clipboard.PNG){width=450px}
+![](./images/clipboard.PNG){width=450px}
 \
 More info on the Klippy package can be found [HERE](https://github.com/RLesur/klippy)
 </font>
@@ -285,7 +285,7 @@ Since we created this project as a for version control with GitHub you will noti
 
 </font>
 
-![](git panel.PNG)
+![](./images/git panel.PNG)
 
 ## Pushing files to GitHub Cont...(2/6)
 
@@ -295,7 +295,7 @@ Before we can push our files to GitHub we need to commit.  Committing creates a 
 
 - To commit we will first select check box of the file we want to commit.
 
-![](Select File.PNG)
+![](./images/Select File.PNG)
 
 - Next select `Commit` below the history tab.  This will open a new pop-up window. 
 
@@ -307,7 +307,7 @@ Before we can push our files to GitHub we need to commit.  Committing creates a 
 
 Next you will add an informative message into the commit message box outlining what you changed in the file.  (Similar to commenting your code, future you and your collaborators will thank you for this.)
 
-![](commit message.PNG){width=750px}
+![](./images/commit message.PNG){width=750px}
 
 \
 After adding your commit message select the `commit` button.
@@ -318,7 +318,7 @@ After adding your commit message select the `commit` button.
 
 If everything worked with your commit you should see a new pop up that like the one below.
 
-![](commit successfull.PNG){width=750px}
+![](./images/commit successfull.PNG){width=750px}
 
 Select `Close` to leave this window.
 
@@ -326,12 +326,12 @@ Select `Close` to leave this window.
 
 Now that we have successfully committed, We can push our file to the GitHub Repository by selecting the `Push` button in the top right corner.  
 
-![](push.PNG){width=750px}
+![](./images/push.PNG){width=750px}
 
 \
 If you successfully push your file you should see a new pop up that looks like this.  
 
-![](push successful.PNG){width=750px}
+![](./images/push successful.PNG){width=750px}
 
 ## Pushing files to GitHub Cont...(6/6)
 
@@ -339,7 +339,7 @@ Congratulations you have just committed and pushed your first file.  Now anyone 
 
 The commit message next to your file name will tell your collaborators what you changed.
 
-![](repo with file.PNG){width=750px}
+![](./images/repo with file.PNG){width=750px}
 
 ## Pulling files from GitHub
 
@@ -350,13 +350,13 @@ Pulling files is a much simpler process than pushing.  Pulling updates your loca
 You can pull by selecting the `blue down arrow` under the connections tab.  
 
 </font>
-![](pulling.PNG){width=600px}
+![](./images/pulling.PNG){width=600px}
 
 ## Pulling files from GitHub
 
 After pulling you will see a message either telling you what files and changes were downloaded or that your local copy of the repo already contained the most recent updates.
 
-![](pull complete.PNG){width=750px}
+![](./images/pull complete.PNG){width=750px}
 
 \
 You have now successfully pushed to and pulled from GitHub through RStudio.  
@@ -367,12 +367,12 @@ Any questions or comments on this class please feel free to reach out at:
 
 <center>
 
-![](github-circle-small-24292e-FFFFFF.png) [danielpballer](https://github.com/danielpballer)
+![](./images/github-circle-small-24292e-FFFFFF.png) [danielpballer](https://github.com/danielpballer)
 
-<img src="twitter-brands.svg" width="50" height="50">
+<img src="./images/twitter-brands.svg" width="50" height="50">
 [\@danielpballer](https://twitter.com/danielpballer)
 
-<img src="envelope-square-solid.svg" width="50" height="50"> danielballer.usma@gmail.com
+<img src="./images/envelope-square-solid.svg" width="50" height="50"> danielballer.usma@gmail.com
 
 </center>
 
