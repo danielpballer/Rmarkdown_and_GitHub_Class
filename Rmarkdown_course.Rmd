@@ -28,7 +28,7 @@ These slides serve to be a stand alone document to walk you through step by step
 - usethis
 - palmerpenguins
 - knitr
-- klipy  (can be installed by running: `install.packages("remotes")` and `remotes::install_github("rlesur/klippy")`)
+- klippy  (can be installed by running: `install.packages("remotes")` and `remotes::install_github("rlesur/klippy")`)
 
 ## Creating a new repo on GitHub
 

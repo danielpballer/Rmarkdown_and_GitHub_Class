@@ -1,0 +1,35 @@
+---
+title: "Intro To Rmarkdown and Github"
+author: "MAJ Daniel Baller"
+date: "11/19/2021"
+output: 
+  ioslides_presentation:
+    logo: CDAS.PNG
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(fontawesome)
+```
+
+## Before we start
+Before we start please take the following steps:
+
+1. Download and install git from www.gitforwindows.org
+2. Create a free GitHub account at www.github.com
+3. In R Studio install the following packages:
+  + tidyverse
+  + knitr
+  + palmerpenguins
+  + remotes
+  + usethis
+  + klippy  (can be installed by running: `remotes::install_github("rlesur/klippy")`)
+
+## Objectives
+
+**This Class has 3 main objectives:**
+
+- Connecting R Studio on your computer with your GitHub account.
+- Learning the basics of R Markdown and why it's so **Awesome**
+- Understanding how to use R Studio to interact with GitHub for collaborative projects.
+
